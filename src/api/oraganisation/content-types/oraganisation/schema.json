@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "oraganisations",
+  "info": {
+    "singularName": "oraganisation",
+    "pluralName": "oraganisations",
+    "displayName": "Oraganisation"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Describe": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
